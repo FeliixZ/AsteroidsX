@@ -1,0 +1,58 @@
+#.gitignore file:
+#--------------------------------------------------
+
+# *** DO NOT IGNORE ***
+# ! Parameter (Negation)
+!lib
+!rsc
+!src
+
+
+# *** IGNORE ***
+# * Parameter (Everything)
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# ECLIPSE IDE
+eclipse
+bin
+tmp
+local.properties
+*.bak
+*.tmp
+*.launch
+.settings
+.loadpath
+.metadata
+.classpath
+.project
+
+# COMPILED FILES
+*.class
+build
+
+# WINDOWS SPECIFIC FILES
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# OTHER
+run
+.DS_Store
+Thumbs.db
+bytecode
+*.log
+*.aux
+*.synctex.gz
+*.ctxt
+hs_err_pid*
